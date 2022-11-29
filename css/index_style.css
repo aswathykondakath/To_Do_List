@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    background-image: url("../images/todo1.jpg")!important;
+    background-size: cover;
+   
+} 
+#text{
+    color: aliceblue;
+    /* border: 2px solid red; */
+    margin-right: 80% ;
+    margin-left: 2px;
+    padding :5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#input{
+    margin-left: 60%;
+    /* border:2px solid blue; */
+}
+/* Header */
+
+header {
+    background-color: black;
+    margin-bottom:  2px;
+    padding: 5px;
+}
+input[type=text],[type=password]{
+    padding:10px;
+    border:0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+#login{
+    background-color: rgb(146, 155, 146);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 58%;
+    text-align: center;
+}
